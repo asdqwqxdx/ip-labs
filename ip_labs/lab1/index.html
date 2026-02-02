@@ -3,94 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Картка студента</title>
-
-    <style>
-        body {
-            font-family: "Times New Roman", serif;
-            background-color: #ffffff;
-        }
-
-        .card {
-            width: 700px;
-            margin: 20px auto;
-            border: 2px solid #000;
-            padding: 20px 30px;
-            box-sizing: border-box;
-        }
-
-        h1 {
-            font-size: 24px;
-            margin-bottom: 15px;
-        }
-
-        h2 {
-            font-size: 18px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-        p {
-            margin: 5px 0;
-            font-size: 16px;
-        }
-
-        ul {
-            margin-top: 5px;
-            margin-bottom: 10px;
-        }
-
-        li {
-            margin: 5px 0;
-        }
-
-        .italic {
-            font-style: italic;
-        }
-
-        .underline {
-            text-decoration: underline;
-        }
-
-        .footer {
-            margin-top: 20px;
-            font-size: 14px;
-        }
-    </style>
 </head>
 <body>
 
-<div class="card">
-
+<header>
     <h1>Картка студента</h1>
+</header>
 
-    <h2>Інформація про студента</h2>
+<main>
+    <section>
+        <h2>Інформація про студента</h2>
 
-    <p><strong>Ім’я:</strong> Федунь Юрій Михайлович</p>
-    <p><strong>Факультет:</strong> Комп'ютерна інженерія</p>
-    <p><strong>Група:</strong> КІ-42</p>
+        <p><strong>Ім’я:</strong> Федунь Юрій Михайлович</p>
+        <p><strong>Факультет:</strong> <em>Комп'ютерна інженерія</em></p>
+        <p><strong>Група:</strong> КІ-42</p>
+    </section>
 
-    <h2>Досягнення</h2>
+    <section>
+        <h2>Досягнення</h2>
 
-    <ul>
-        <li>Участь у <span class="italic">олімпіаді з математики</span>.</li>
-       
-    </ul>
+        <p>
+            Студент брав участь у <mark>олімпіаді з математики</mark> та
+            отримав <ins>сертифікат учасника</ins>.
+        </p>
 
-    <h2>Додаткова інформація</h2>
+    </section>
 
-    <p><span class="underline">англійська рівень:</span> B2</p>
+    <section>
+        <h2>Додаткова інформація</h2>
 
-    <p>
-        Студент бере участь у волонтерських проєктах та регулярно
-        <span class="underline">приділяє час</span>
-        роботі над власними проєктами.
-    </p>
+        <p>
+            Рівень англійської:
+            <abbr title="Upper-Intermediate">B2</abbr>
+        </p>
 
-    <div class="footer">
-        © 2026 Коледж Інформаційних Технологій
-    </div>
+      
+    </section>
+</main>
 
-</div>
+<footer>
+    <p>©Copyright 2026 by Федунь Юрій Михайлович.All rights
+reversed.</p>
+</footer>
 
 </body>
 </html>
