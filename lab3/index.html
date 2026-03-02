@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Card Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Student card FORM</h1>
+</header>
+
+<main>
+    <form>
+
+        <!-- Personal Information -->
+        <section>
+            <h2>Personal Information</h2>
+            <fieldset>
+                <legend>Provide your details</legend>
+
+                <p>
+                    <label>
+                        Full Name:
+                        <input type="text" placeholder="Enter your full name">
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Email:
+                        <input type="email" placeholder="Enter your email">
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Password:
+                        <input type="password" placeholder="Enter a password">
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Age:
+                        <input type="number">
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Date of Birth:
+                        <input type="date">
+                    </label>
+                </p>
+
+                <p>Gender:</p>
+                <label>
+                    <input type="radio" name="gender"> Male
+                </label><br>
+                <label>
+                    <input type="radio" name="gender"> Female
+                </label><br>
+                <label>
+                    <input type="radio" name="gender"> Other
+                </label>
+
+                <p>Languages Known:</p>
+                <label>
+                    <input type="checkbox"> English
+                </label><br>
+                <label>
+                    <input type="checkbox"> Spanish
+                </label><br>
+                <label>
+                    <input type="checkbox"> French
+                </label>
+
+                <p>
+                    <label>
+                        Country:
+                        <select>
+                            <option>Select your country</option>
+                            <option>Ukraine</option>
+                            <option>Poland</option>
+                            <option>Germany</option>
+                            <option>USA</option>
+                        </select>
+                    </label>
+                </p>
+
+            </fieldset>
+        </section>
+
+        <!-- College Subjects -->
+        <section>
+            <h2>College Subjects</h2>
+            <fieldset>
+                <legend>Select your subjects</legend>
+
+                <p>
+                    <label>
+                        Choose subjects:
+                        <br>
+                        <select multiple size="5">
+                            <option>Mathematics</option>
+                            <option>Computer Science</option>
+                            <option>Physics</option>
+                            <option>Chemistry</option>
+                            <option>English</option>
+                        </select>
+                    </label>
+                </p>
+
+                <p>
+                    Rate your interest in Computer Science:
+                    <input type="range" min="0" max="100">
+                </p>
+            </fieldset>
+        </section>
+
+        <!-- Skills Assessment -->
+        <section>
+            <h2>Skills Assessment</h2>
+            <fieldset>
+                <legend>Assess your skills</legend>
+
+                <p>
+                    <label>
+                        Describe your skills:
+                        <br>
+                        <textarea rows="4" cols="40" placeholder="List your skills here..."></textarea>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Upload your resume:
+                        <input type="file">
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Pick your favorite color:
+                        <input type="color">
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Preferred study time:
+                        <input type="time">
+                    </label>
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit Survey">
+                </p>
+            </fieldset>
+        </section>
+
+    </form>
+</main>
+
+<footer>
+    <p>© Student card by (your name). All rights reserved.</p>
+</footer>
+
+</body>
+</html>
